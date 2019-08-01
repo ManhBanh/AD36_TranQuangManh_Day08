@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_above="@+id/tvMain"
+            android:textSize="@dimen/_15sdp"
+            android:text="Main"
+            android:textColor="@color/trang"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/_50sdp"
+            android:layout_above="@+id/tvWeather"
+            android:textSize="@dimen/_15sdp"
+            android:text="Weather"
+            android:textColor="@color/trang"/>
+
+        <TextView
+            android:id="@+id/tvMain"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/den"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_1sdp"
+            android:background="@drawable/textview_shape"/>
+
+        <TextView
+            android:id="@+id/tvWeather"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/den"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:background="@drawable/textview_shape"/>
+    </RelativeLayout>
+
+</layout>
